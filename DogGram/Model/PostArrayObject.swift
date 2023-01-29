@@ -22,5 +22,8 @@ class PostArrayObject: ObservableObject {
         self.dataArray.append(PostModel(postID: "3dgg", userID: "asky63d", username: "Stuart Little", caption: "Keep up the good work!", dateCreated: Date.now, likeCount: 124, likedByUser: false))
     }
     
-    
+    // USED FOR SINGLE POST SELECTION eg inside ImageGridView
+    init(post: PostModel) {
+        self.dataArray.append(post)
+    }
 }

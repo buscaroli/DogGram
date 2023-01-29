@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		955BA63C2986A69D00869061 /* ImageGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 955BA63B2986A69D00869061 /* ImageGridView.swift */; };
 		955D470C2976F50500CBF991 /* DogGramApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 955D470B2976F50500CBF991 /* DogGramApp.swift */; };
 		955D470E2976F50500CBF991 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 955D470D2976F50500CBF991 /* ContentView.swift */; };
 		955D47102976F50600CBF991 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 955D470F2976F50600CBF991 /* Assets.xcassets */; };
@@ -25,6 +26,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		955BA63B2986A69D00869061 /* ImageGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageGridView.swift; sourceTree = "<group>"; };
 		955D47082976F50500CBF991 /* DogGram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DogGram.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		955D470B2976F50500CBF991 /* DogGramApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogGramApp.swift; sourceTree = "<group>"; };
 		955D470D2976F50500CBF991 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -118,6 +120,7 @@
 				955D472329774F7E00CBF991 /* PostView.swift */,
 				956FB80B29855FEC001019DE /* MessageView.swift */,
 				956FB81129857060001019DE /* CarouselView.swift */,
+				955BA63B2986A69D00869061 /* ImageGridView.swift */,
 			);
 			path = Subviews;
 			sourceTree = "<group>";
@@ -217,6 +220,7 @@
 				956FB80C29855FEC001019DE /* MessageView.swift in Sources */,
 				955D472029774CC600CBF991 /* Extensions.swift in Sources */,
 				957DBA832982ECA3005C4355 /* PostArrayObject.swift in Sources */,
+				955BA63C2986A69D00869061 /* ImageGridView.swift in Sources */,
 				955D472429774F7E00CBF991 /* PostView.swift in Sources */,
 				956FB81029856FD8001019DE /* BrowseView.swift in Sources */,
 				956FB80E298561CF001019DE /* CommentModel.swift in Sources */,

@@ -8,21 +8,24 @@
 import SwiftUI
 
 struct ContentView: View {
+    
     var body: some View {
         TabView {
             NavigationView {
-                FeedView(posts: PostArrayObject())
+                FeedView(posts: PostArrayObject(), title: "FEED VIEW")
             }
             .tabItem {
                 Image(systemName: "book.fill")
                 Text("Feed")
             }
             
-            BrowseView()
-                .tabItem {
-                    Image(systemName: "magnifyingglass")
-                    Text("Browse")
-                }
+            NavigationView {
+                BrowseView()
+            }
+            .tabItem {
+                Image(systemName: "magnifyingglass")
+                Text("Browse")
+            }
             
             Text("Three")
                 .tabItem {
