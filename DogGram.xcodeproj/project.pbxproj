@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		954D5E6329941F21000B76D3 /* UploadView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 954D5E6229941F21000B76D3 /* UploadView.swift */; };
 		955BA63C2986A69D00869061 /* ImageGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 955BA63B2986A69D00869061 /* ImageGridView.swift */; };
 		955D470C2976F50500CBF991 /* DogGramApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 955D470B2976F50500CBF991 /* DogGramApp.swift */; };
 		955D470E2976F50500CBF991 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 955D470D2976F50500CBF991 /* ContentView.swift */; };
@@ -26,6 +27,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		954D5E6229941F21000B76D3 /* UploadView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadView.swift; sourceTree = "<group>"; };
 		955BA63B2986A69D00869061 /* ImageGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageGridView.swift; sourceTree = "<group>"; };
 		955D47082976F50500CBF991 /* DogGram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DogGram.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		955D470B2976F50500CBF991 /* DogGramApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogGramApp.swift; sourceTree = "<group>"; };
@@ -110,6 +112,7 @@
 				955D472129774E6500CBF991 /* FeedView.swift */,
 				956FB809298542C8001019DE /* CommentsView.swift */,
 				956FB80F29856FD8001019DE /* BrowseView.swift */,
+				954D5E6229941F21000B76D3 /* UploadView.swift */,
 			);
 			path = Screens;
 			sourceTree = "<group>";
@@ -225,6 +228,7 @@
 				956FB81029856FD8001019DE /* BrowseView.swift in Sources */,
 				956FB80E298561CF001019DE /* CommentModel.swift in Sources */,
 				956FB80A298542C8001019DE /* CommentsView.swift in Sources */,
+				954D5E6329941F21000B76D3 /* UploadView.swift in Sources */,
 				956FB81229857060001019DE /* CarouselView.swift in Sources */,
 				955D470C2976F50500CBF991 /* DogGramApp.swift in Sources */,
 			);
